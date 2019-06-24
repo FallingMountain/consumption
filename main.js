@@ -9,6 +9,6 @@ var game = {
 };
 
 setInterval(function(){
-document.getElementById("atoms").innerHTML = game.money
+document.getElementById("atoms").innerHTML = shortenMoney(game.money)
 
 	    }, 10)
